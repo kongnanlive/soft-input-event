@@ -27,11 +27,14 @@
 - [x] 更准确的软键盘高度/显示隐藏监听
 - [x] 指定监听输入框
 - [x] 显示/隐藏软键盘
+- [x] 支持对话框
 - [x] 更简单易用的方法
 
 ## 使用
 
 监听键盘显示或者指定视图悬浮于软键盘上只需要一个方法
+
+本方法支持`Activity/Fragment/Dialog/DialogFragment/BottomSheetDialogFragment`
 
 ```kotlin
 setWindowSoftInput(
